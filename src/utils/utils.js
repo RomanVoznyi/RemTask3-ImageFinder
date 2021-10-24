@@ -7,7 +7,7 @@ const getImages = (request, page) => {
     .get(
       `https://pixabay.com/api/?q=${request}&page=${page}&key=${APIKEY}&image_type=photo&orientation=horizontal&per_page=12`,
     )
-    .then(response => response.data.hits);
+    .then(response => response.data);
 };
 
 export default getImages;
