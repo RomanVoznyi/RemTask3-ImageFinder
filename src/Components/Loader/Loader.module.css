@@ -84,3 +84,8 @@
     transform: scale(1.5);
   }
 }
+
+.loading {
+  text-align: center;
+  color: #3f51b5;
+}
